@@ -10,7 +10,7 @@ module.exports = defineConfig({
     reportDir: 'cypress/results',
     overwrite: true,
     html: true,
-    json: true,
+    json: false,
   }
   },
 });
